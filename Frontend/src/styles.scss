@@ -7,3 +7,10 @@ $prefix: "mo-";
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+}
