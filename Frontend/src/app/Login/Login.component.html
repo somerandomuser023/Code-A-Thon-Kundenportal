@@ -3,23 +3,29 @@
 >
   <div class="border-container welcome-container">
     <div class="welcome-text">
-      <h1>Wilkommen in unserem Kundenportal!</h1>
+      <h1 class="title">Wilkommen in unserem Kundenportal!</h1>
       <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
+        Seit über 60 Jahren unterstützen wir Großprojekte in Immobilien,
+        Transport und erneuerbaren Energien. Mit der Finanzkraft von 400
+        Sparkassen und Landesbanken bieten wir sichere, maßgeschneiderte
+        Lösungen.
+      </p>
+      <p>
+        Loggen Sie sich ein, um eine Übersicht über Ihre Verträge und Assets zu
+        erhalten und Nachrichten zu senden. Erfahren Sie mehr über unsere
+        erfolgreichen Projekte und unsere Kompetenz in der Realisierung
+        anspruchsvoller Investitionsvorhaben.
+      </p>
+      <p>
+        Loggen Sie sich ein, um Ihre individuellen Angebote und Services zu
+        entdecken.
       </p>
     </div>
   </div>
+
   <div class="border-container login-container">
     <form>
-      <h1 class="login-text">Login</h1>
+      <h1 class="title">Login</h1>
       <!-- Email input -->
       <div data-mdb-input-init class="form-outline mb-4">
         <input type="email" id="form2Example1" class="form-control" />
@@ -46,6 +52,7 @@
         data-mdb-button-init
         data-mdb-ripple-init
         class="btn btn-primary btn-block mb-4"
+        (click)="login()"
       >
         Sign in
       </button>

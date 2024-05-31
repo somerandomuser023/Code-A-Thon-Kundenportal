@@ -14,3 +14,20 @@ body {
   margin: 0;
   display: grid;
 }
+
+.border-container {
+  border: 1px solid #ccc;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 45%;
+  max-width: 500px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

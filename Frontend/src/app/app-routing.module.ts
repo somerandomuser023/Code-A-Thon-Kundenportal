@@ -3,10 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AccountComponent } from './Account/Account.component';
 import { LoginComponent } from './Login/Login.component';
 import { MessagesComponent } from './Messages/Messages.component';
+import { AssetsComponent } from './Assets/Assets.component';
+import { AuthGuard } from '../app/auth.guard';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   {
-    path: '',
+    path: 'login',
     component: LoginComponent,
   },
   {
@@ -16,6 +19,11 @@ const routes: Routes = [
   {
     path: 'messages',
     component: MessagesComponent,
+  },
+  {
+    path: 'assets',
+    component: AssetsComponent,
+    canActivate: [AuthGuard],
   },
 ];
 

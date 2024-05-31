@@ -8,32 +8,11 @@
   height: 100%;
 }
 
-.border-container {
-  border: 1px solid #ccc;
-  padding: 40px;
-  background-color: #f8f9fa;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 1 1 45%;
-  max-width: 500px;
-}
-
-.welcome-text {
-  text-align: center;
-}
-
-.welcome-text h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
 .welcome-text p {
   font-size: 16px;
   color: #333;
 }
 
-/* Optional: Additional styling for the form elements */
 .form-outline {
   margin-bottom: 20px;
 }
@@ -49,13 +28,6 @@
   margin-top: 10px;
   display: block;
   font-weight: bold;
-}
-
-.login-text {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 30px;
 }
 
 .btn-block {
