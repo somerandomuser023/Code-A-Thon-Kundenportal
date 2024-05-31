@@ -8,6 +8,7 @@ import { AccountComponent } from './Account/Account.component';
 import { CommonModule } from '@angular/common';
 import { AssetsComponent } from './Assets/Assets.component';
 import { MessagesComponent } from './Messages/Messages.component';
+import { CookiePopupComponent } from './CookiePopup/CookiePopup.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MessagesComponent } from './Messages/Messages.component';
     AccountComponent,
     MessagesComponent,
     AssetsComponent,
+    CookiePopupComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, CommonModule],
   providers: [],

@@ -5,6 +5,7 @@ import { LoginComponent } from './Login/Login.component';
 import { MessagesComponent } from './Messages/Messages.component';
 import { AssetsComponent } from './Assets/Assets.component';
 import { AuthGuard } from '../app/auth.guard';
+import { CookiePopupComponent } from './CookiePopup/CookiePopup.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -24,6 +25,10 @@ const routes: Routes = [
     path: 'assets',
     component: AssetsComponent,
     canActivate: [AuthGuard],
+  },
+  {
+    path: 'cookiePopup',
+    component: CookiePopupComponent,
   },
 ];
 
